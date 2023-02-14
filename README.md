@@ -1,6 +1,6 @@
 # Book-Store
 
-##Utilisation de JSP et SERVLET
+## Utilisation de JSP et SERVLET
 
 Site de librairie en ligne en jsp avec :
 -page d'accueil
@@ -10,7 +10,7 @@ Site de librairie en ligne en jsp avec :
 
 ### Ce site a été produit dans la cadre de ma licence pro informatique à sorbonne université
 
-##Use of JSP and SERVLET
+## Use of JSP and SERVLET
 
 Online bookstore site in jsp with :
 -home page
