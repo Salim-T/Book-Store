@@ -1,3 +1,10 @@
+/*
+Charte graphique 
+
+bleu : #006bb4
+jaune:
+*/
+
 *{
 	margin:0;
 }
@@ -65,10 +72,11 @@ section.livres {
 	justify-content: space-around;
 	margin-bottom: 50px;
 
+
 }
 
 div.livre {
-	height: 360px;
+	height: 400px;
 	width: 240px;
 	border:1px solid grey;
 }
@@ -81,6 +89,21 @@ div.livre div.detailLivre{
 	margin:15px 0 0px 30px;
 }
 
+div.livre button{
+	margin:15px 0 0 20px;
+	background-color:#006bb4;
+	color:white;
+	border:none;
+	padding:8px;
+}
+
+div.livre button:hover{
+	background-color:yellow;
+	color:#006bb4;
+	border:1px solid #006bb4;
+}
+
+
 div.livre div.detailLivre p.titreLivre{
 	font-weight:bold;
 	margin-bottom:28px;
@@ -89,4 +112,49 @@ div.livre div.detailLivre p.titreLivre{
 div.livre div.detailLivre p.titreLivre2{
 	font-weight:bold;
 	margin-bottom:10px;
+}
+
+/***********************   PANIER                                 */
+
+h2.titre{
+margin:0;
+text-align:center;
+}
+
+.panier2{
+	margin-top:20px;
+}
+
+.panier2 table{
+	margin:auto;
+	border-collapse:collapse;
+	text-align:center;
+}
+
+.panier2 table thead th{
+	font-size:1.3em;
+}
+
+.panier2 table th,td{
+	padding: 5px 30px 10px;
+	border-bottom: 1px solid grey;
+}
+.available{
+	color:green;
+}
+
+form{
+	margin-top:10px;
+	text-align:center
+}
+
+form .left{
+	float:left;
+}
+
+/***********************   SUCCESS                                 */
+
+.success{
+	text-align:center;
+	
 }
