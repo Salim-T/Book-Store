@@ -24,8 +24,8 @@ String image =request.getParameter("image");
         <tr>
             <td><img src="<%= image %>" alt="couverture livre" width="120" height="130"></td>
             <td>
-            	<li><%= titre %></li>
-            	<li><%= auteur %></li>
+            	<p><%= titre %></p>
+            	<p><%= auteur %></>
             </td>
             <td class="available">En stock</td>
             <td><%= prix %></td>
@@ -34,7 +34,7 @@ String image =request.getParameter("image");
 </table>
 
 
-
+<div class="userInformation">
   <div class="form-example">
     <label for="nom">Nom: </label>
     <input type="text" name="nom">
@@ -60,7 +60,7 @@ String image =request.getParameter("image");
     <input type="text" name="cp">
   </div>
 </div>
-
+</div>
 <div class="right">
 <p>Informations de paiement</p>
 <div>
@@ -75,14 +75,10 @@ String image =request.getParameter("image");
 <label for="code">Cryptogramme visuel</label>
 <input type="number" name="code" id="code">
 </div>
-</div>
-  
-  
-  <div class="form-example">
+<div class="form-example">
     <input type="submit" value="Valider mon paiement" >
   </div>
-  
-  
+</div>
 </form>
 
 

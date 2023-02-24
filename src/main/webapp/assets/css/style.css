@@ -92,16 +92,23 @@ div.livre div.detailLivre{
 div.livre button{
 	margin:15px 0 0 20px;
 	background-color:#006bb4;
-	color:white;
 	border:none;
 	padding:8px;
 }
 
-div.livre button:hover{
-	background-color:yellow;
-	color:#006bb4;
-	border:1px solid #006bb4;
+div.livre button a{
+	color :white;
 }
+
+/*div.livre button:hover{
+	background-color:yellow;
+	border:1px solid #006bb4;
+	color :#006bb4;
+}
+
+div.livre button a:hover{
+	color :#006bb4;
+}*/
 
 
 div.livre div.detailLivre p.titreLivre{
@@ -119,42 +126,60 @@ div.livre div.detailLivre p.titreLivre2{
 h2.titre{
 margin:0;
 text-align:center;
+margin-bottom:30px;
 }
 
 .panier2{
-	margin-top:20px;
+	margin:auto;
+	display:flex;
+	width:1280px;
+	font-family:"DM Sans","Arial",sans-serif;
 }
 
+/* TABLE */
 .panier2 table{
-	margin:auto;
 	border-collapse:collapse;
-	text-align:center;
 }
 
 .panier2 table thead th{
-	font-size:1.3em;
+	font-size:1em;
+	font-weight:normal;
 }
 
-.panier2 table th,td{
-	padding: 5px 30px 10px;
+.panier2 table th:first-child{
+	padding:0 0px 10px 0;
+}
+
+.panier2 table th{
+	padding:0 150px 10px 0;
 	border-bottom: 1px solid grey;
 }
+
+.panier2 table th:nth-child(4){
+	padding:0 0px 10px 0;
+}
+
+.panier2 table td{
+	border-bottom: 1px solid grey;
+}
+
+.panier2 table td p:first-child{
+	font-weight:bold;
+	padding-bottom:5px;
+}
+
 .available{
 	color:green;
 }
 
-form{
-	margin-top:10px;
-	text-align:center
-}
+/* USER FORM */
 
-form .left{
-	float:left;
+.panier2 div.left div.userInformation{
+	margin-top:20px;
 }
 
 /***********************   SUCCESS                                 */
 
 .success{
 	text-align:center;
-	
 }
