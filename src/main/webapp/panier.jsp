@@ -9,7 +9,8 @@ String prix =request.getParameter("prix");
 String image =request.getParameter("image");
 %>
 
-<form action="./Success.jsp" method="post" class="panier2">
+<div class="panier2">
+<form action="./Success.jsp" method="post">
 <div class="left">
 <table>
     <thead>
@@ -35,50 +36,59 @@ String image =request.getParameter("image");
 
 
 <div class="userInformation">
-  <div class="form-example">
-    <label for="nom">Nom: </label>
-    <input type="text" name="nom">
-  </div>
-  <div class="form-example">
-    <label for="prenom">Prénom: </label>
-    <input type="text" name="prenom">
-  </div>
-  <div class="form-example">
-    <label for="email">Email: </label>
-    <input type="email" name="email">
-  </div>
-  <div class="form-example">
-    <label for="ville">Ville: </label>
-    <input type="text" name="ville">
-  </div>
-  <div class="form-example">
-    <label for="adresse">Adresse: </label>
-    <input type="text" name="adresse">
-  </div>
-  <div class="form-example">
-    <label for="cp">Code Postal: </label>
-    <input type="text" name="cp">
-  </div>
+<h3>Vos informations de livraisons</h3>
+
+<div class="txtField">
+    <input type="text" name="nom" required>
+    <span></span>
+    <label>Nom</label>
+</div>   
+<div class="txtField">
+    <input type="text" name="prenom" required>
+    <span></span>
+    <label>Prénom</label>
+</div>
+<div class="txtField">
+    <input type="email" name="email" required>
+    <span></span>
+    <label>Email</label>
+</div>
+<div class="txtField">
+    <input type="text" name="ville" required>
+    <span></span>
+    <label>Ville</label>
+</div>
+<div class="txtField">
+    <input type="text" name="adresse" required>
+    <span></span>
+    <label>Adresse</label>
+</div>
+<div class="txtField">
+    <input type="text" name="cp" required>
+    <span></span>
+    <label>Code Postal</label>
+</div>
+<input type="submit" value="Valider mon paiement" >
 </div>
 </div>
+
 <div class="right">
-<p>Informations de paiement</p>
-<div>
-<label for="numeroCarte">Numéro de carte</label>
-<input type="text" name="numeroCarte" id="numeroCarte">
+<h3>Vos informations de paiement</h3>
+<div class="txtField">
+    <input type="text" name="numeroCarte" required>
+    <span></span>
+    <label>Numéro de carte</label>
 </div>
-<div>
-<label for="date">Date d'expiration : </label>
-<input type="date" name="date" id="date">
+<div class="txtField">
+    <input type="text" name="date" required>
+    <span></span>
+    <label>Date d'expiration</label>
 </div>
-<div>
-<label for="code">Cryptogramme visuel</label>
-<input type="number" name="code" id="code">
-</div>
-<div class="form-example">
-    <input type="submit" value="Valider mon paiement" >
-  </div>
+
+<div class="txtField">
+    <input type="text" name="code" required>
+    <span></span>
+    <label>Cryptogramme visuel</label>
 </div>
 </form>
-
-
+</div>
