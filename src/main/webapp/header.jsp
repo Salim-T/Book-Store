@@ -16,9 +16,6 @@
 		<nav>
 			<ul>
 				<li><a href="./index.jsp">Accueil</a></li>
-				<li><a href="./boutique.jsp">Boutique</a></li>
-				<!--  <li><a href="#">Compte</a></li>-->
-				<!-- <li><a href="./panier.jsp">Panier</a></li>-->
 			</ul>
 		</nav>
 		

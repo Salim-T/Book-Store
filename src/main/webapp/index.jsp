@@ -11,7 +11,7 @@
 	<p class="titreLivre"><a href="#">Profession fripouille</a><p>
 	<p>Georges Sanders<p>
 	<p>Prix : <span>20</span> $</p>
-	<button><a href="./panier.jsp?image=assets/img/livre_profession_fripouille.jpg&titre=Profession fripouille&auteur=Georges Sanders&prix=20$">Acheter maintenant</a></button>
+	<button class="button1"><a href="./panier.jsp?image=assets/img/livre_profession_fripouille.jpg&titre=Profession fripouille&auteur=Georges Sanders&prix=20$">Acheter maintenant</a></button>
 </div>
 </div>
 
@@ -45,7 +45,7 @@
 	<p class="titreLivre"><a href="#">Shibumi</a></p>
 	<p>Pat Perna<p>
 	<p>Prix : <span>13</span> $</p>
-	<button><a href="./panier.jsp?image=assets/img/livre_shibumi.jpg&titre=Shibumi&auteur=Pat Perna&prix=13$">Acheter maintenant</a></button>
+	<button class="button1"><a href="./panier.jsp?image=assets/img/livre_shibumi.jpg&titre=Shibumi&auteur=Pat Perna&prix=13$">Acheter maintenant</a></button>
 </div>
 </div>
 
